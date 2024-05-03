@@ -1,11 +1,11 @@
-let a=10,b=20,temp;
+let a=10,b=20,c;
 
 console.log("swap after....");
 console.log(a,b);
 
-temp=a;
+c=a;
 a=b;
-b=temp;
+b=c;
 
 console.log("swap before....");
 console.log(a,b);
